@@ -6,8 +6,8 @@
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 ul {
@@ -23,14 +23,14 @@ a {
 }
 
 #nav-bar {
-  position: fixed;
   top: 0px;
-  display: flex;
   width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgb(255, 255, 255);
+  display: flex;
+  position: fixed;
   overflow: hidden;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
 }
 
 @media only screen and (max-width:600px){
@@ -51,8 +51,8 @@ a {
 /* UTILITY CLASSES */
 #container {
   max-width: 960px;
-  margin: 2rem auto 0;
   overflow: hidden;
+  margin: 2rem auto 0;
 }
 
 .logo {
@@ -67,22 +67,22 @@ a {
 }
 
 .btn {
+  color: #333;
+  font-weight: bold;
   display: inline-block;
   padding: 0.4rem 1.5rem;
-  color: #333;
   text-transform: uppercase;
-  font-weight: bold;
   background-color: #f1c40f;
 }
 
 .nav-link {
   float: left;
   display: block;
+  font-size: 17px;
   color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
 }
 
 
@@ -98,25 +98,25 @@ a {
 }
 
 .message-box input {
-  display: block;
-  margin: auto;
   width: 30%;
+  margin: auto;
+  display: block;
   padding: 0.4rem;
   margin-bottom: 1rem;
 }
 
 #features {
+  display: flex;
   padding: 1rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  display: flex;
   flex-direction: column;
 }
 
 #features .feature {
   display: flex;
-  justify-self: center;
   align-items: center;
+  justify-self: center;
 }
 
 #features .feature i {
@@ -134,8 +134,8 @@ a {
 }
 
 #how-it-work {
-  padding: 3rem;
   margin: auto;
+  padding: 3rem;
   text-align: center;
 }
 
@@ -146,16 +146,16 @@ a {
 
 #pricing {
   display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
+  align-items: center;
   padding: 3rem 0.2rem;
+  justify-content: center;
 }
 
 .price-box {
-  border: solid #333 3px;
   border-radius: 2px;
   text-align: center;
+  border: solid #333 3px;
 }
 
 .price-box:first-child {
@@ -167,9 +167,9 @@ a {
 }
 
 .price-box h3 {
-  background-color: #ddd;
-  font-size: 1.05rem;
   padding: 1rem;
+  font-size: 1.05rem;
+  background-color: #ddd;
 }
 
 .price-box h2 {
@@ -181,18 +181,18 @@ a {
 }
 
 .price-box .btn {
-  display: inline-block;
   margin: 1rem;
+  display: inline-block;
 }
 
 /* FOOTER */
 #main-footer {
-  background-color: #ccc;
-  padding: 1rem 4rem;
-  margin-top: 2rem;
   display: flex;
-  justify-content: space-between;
   overflow: hidden;
+  margin-top: 2rem;
+  padding: 1rem 4rem;
+  background-color: #ccc;
+  justify-content: space-between;
 }
 
 #main-footer div a {
@@ -208,10 +208,10 @@ a {
 /* TABLET AND SMARTPHONE */
 @media only screen and (max-width: 800px) {
   #navbar {
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 1.5rem 0.3rem;
+    flex-direction: column;
+    justify-content: center;
   }
 
   #navbar ul li {
